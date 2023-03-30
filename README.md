@@ -30,6 +30,8 @@ connectivity_plus: ^3.0.3: Provides access to network connectivity information.
 
 Here are some screenshots of the app in action:
 
+![image](https://user-images.githubusercontent.com/104342138/228847493-c04de752-8a2e-4cf2-83e2-5170b76f0550.png)
+
 ![image](https://user-images.githubusercontent.com/104342138/228845131-1e5527ab-dae3-48fc-ab13-6d08758a1257.png)
 
 ![image](https://user-images.githubusercontent.com/104342138/228845278-b1499d29-92da-4623-8fd9-ae153422995f.png)
