@@ -32,7 +32,7 @@ class _Test2State extends State<Test2> {
     // I am connected to a mobile network.
     var apiKey = "0b09183ac44f4acf9372b62427c7f55a";
     final apiUrl =
-        'https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=$apiKey';
+        'https://newsapi.org/v2/top-headlines?country=in&category=health&apiKey=$apiKey';
 
     var res = await http.get(Uri.parse(apiUrl));
     if (res.statusCode == 200) {
@@ -60,7 +60,7 @@ class _Test2State extends State<Test2> {
   featchTech() async {
     var apiKey = "0b09183ac44f4acf9372b62427c7f55a";
     final apiUrl =
-        'https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=$apiKey';
+        'https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=$apiKey';
 
     var res = await http.get(Uri.parse(apiUrl));
     if (res.statusCode == 200) {
@@ -85,11 +85,11 @@ class _Test2State extends State<Test2> {
             });
           },
           items: [
-            BottomNavigationBarItem(icon: Icon(Icons.topic), label: "Top News"),
+            BottomNavigationBarItem(icon: Icon(Icons.topic), label: "Health"),
             BottomNavigationBarItem(
                 icon: Icon(Icons.sports_football), label: "Sport"),
             BottomNavigationBarItem(
-                icon: Icon(Icons.sports_esports), label: "Technology")
+                icon: Icon(Icons.sports_esports), label: "Business")
           ],
         ),
         appBar: AppBar(
